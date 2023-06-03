@@ -6,7 +6,15 @@ return {
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
-    wrap = false, -- sets vim.opt.wrap
+    wrap = true, -- sets vim.opt.wrap (he tocat aso)
+    -- shell config
+    -- shell = "pwsh",
+    -- shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;",
+    -- shellredir = "-RedirectStandardOutput %s -NoNewWindow -Wait",
+    -- shellpipe = "2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode",
+    -- shellquote = "",
+    -- shellxquote = "",
+    clipboard = "unnamedplus", -- Connection to the system clipboard
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader

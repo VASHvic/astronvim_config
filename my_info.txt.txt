@@ -1,2 +1,3 @@
 :echo nvim_get_runtime_file('parser', v:true):
 per si dona problema el treesitter al tindre dos parses
+el tema que tinc instalat es astrodark y crec que ve de community
