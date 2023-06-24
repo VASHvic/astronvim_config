@@ -13,6 +13,7 @@ vim.keymap.set("t", "<esc>", [[<C-\><C-n>]])
 return {
   n = {
     ["<leader>tv"] = { "<cmd>ToggleTerm size=50 direction=vertical<cr>", desc = "ToggleTerm vertical split" },
+    ["<C-j>"] = { "<cmd>ToggleTerm <cr>", desc = "ToggleTerm" },
     ["<C-d>"] = { "<C-d>zz" },
     ["<C-u>"] = { "<C-u>zz" },
     ["<leader>bD"] = {
@@ -35,6 +36,6 @@ return {
   },
   t = {
     -- setting a mapping to false will disable it
-    -- ["<esc>"] = false, (estant descomentat anava be la terminal, ho comente per a probarho)
+    ["C-j"] = { "<cmd>ToggleTerm <cr>", desc = "ToggleTerm" },
   },
 }
